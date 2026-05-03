@@ -15,7 +15,8 @@
   "author": "Cypress-io",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "15.14.2"
+    "cypress": "15.14.2",
+    "typescript": "^6.0.3"
   },
   "repository": {
     "type": "git",
