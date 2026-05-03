@@ -1,9 +1,20 @@
 {
+  //
+  // 1. Config with `baseUrl` set works fine.
+  //
   "compilerOptions": {
     "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
-  }
+    },
+  },
+  //
+  // 2. Config without `baseUrl` (valid TS config) does not work in Cypress.
+  //
+  // "compilerOptions": {
+  //   "paths": {
+  //     "@/*": ["./src/*"],
+  //   },
+  // }
 }
